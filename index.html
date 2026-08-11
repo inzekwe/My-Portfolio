@@ -59,13 +59,16 @@
       <section id="about">
         <div class="wrapper">
           <div class="text_center">
-            <h2 class="">
+            <h3 class="">
               I am a Web Developer, C programmer, and Financial trader. 
-              I build modern web applications, write low-level software in C, and analyze financial markets to execute trading strategies.
-            </h2>
-          </div>
-          <div class="wrapper_inner">
+              I build modern web applications, write low-level software in C, 
+              and analyze financial markets to execute trading strategies. 
+            </h3> 
+          </div> <br/> 
+        <div class="wrapper_inner">
+          <div class="glass-card">
             <div class="about_content flex flex_around">
+             <div class="avatar-wrapper">
               <figure class="about_figure text_center">
                 <img
                   width="200px"
@@ -74,8 +77,7 @@
                   alt="Developer"
                   class="about_img"
                 />
-                <figcaption class="about_caption">kenneth4iykee ❤️</figcaption>
-              </figure>
+              </div>
               <p class="h5">
                 Born in Nigeria,<br />
                 Full-stack Web developer and 42 School C student. <br />
@@ -93,60 +95,85 @@
               Languages & Frameworks
             </h2>
             <ul role="list" class="work_logos flex flex_center">
-              <li>
+              <li class="tech_card">
                 <img src="/assets/file-c.svg" alt="C" />
+                <span class="tech_name">C Language</span>
               </li>
-              <li>
+              <li class="tech_card">
                 <img src="/assets/file-css.svg" alt="CSS" />
+                <span class="tech_name">CSS3</span>
               </li>
-              <li>
+              <li class="tech_card">
                 <img
                   src="/assets/file-html.svg" alt="HTML"/>
+                  <span class="tech_name">HTML5</span>
               </li>
-              <li>
+              <li class="tech_card">
                 <img src="/assets/file-js.svg" alt="JS" />
+                <span class="tech_name">JavaScript</span>
               </li>
-              <li>
+              <li class="tech_card">
                 <img src="/assets/file-py.svg" alt="Python" /> 
-              </li>
-              <li>
-                <img src="/assets/stack-overflow-logo.svg" alt="ST" />
+                <span class="tech_name">Python</span>
               </li>
             </ul>
           </div>
         </div>
       </section>
       <section id="contact">
-        <div class="wrapper">
-          <div class="text_left">
-            <p>
-              Want to work together? <br />
-              I'd love to hear from you.
-            </p>
-          </div>
+  <div class="wrapper">
+    <div class="contact_container flex">
 
-          <div class="wrapper_inner">
-            <h5 class="h3">Contact Me</h5>
-            <form action="" method="post" class="contact_form">
-              <div class="flex">
-                <div class="form_group">
-                  <label for="name">NAME</label>
-                  <input type="text" id="name" name="name" />
-                </div>
-                <div class="form_group">
-                  <label for="email">EMAIL</label>
-                  <input type="email" id="email" name="email" />
-                </div>
-              </div>
-              <div class="form_group">
-                <label for="message">Message</label>
-                <textarea id="message" name="message"></textarea>
-              </div>
-              <button type="submit">SEND MESSAGE</button>
-            </form>
+      <div class="contact_info">
+        <span class="sub_heading">Get In Touch</span>
+        <h2 class="contact_title">Let's work together.</h2>
+        <p class="contact_desc">
+          I'm currently open to full-stack web development opportunities, C programming projects, or discussing trading strategies. Feel free to reach out!
+        </p>
+
+        <div class="direct_contacts">
+          <div class="contact_item">
+            <span class="item_label">LOCATION</span>
+            <p class="item_value">Brazil 🇧🇷(Available Worldwide)</p>
+          </div>
+          <div class="contact_item">
+            <span class="item_label">EMAIL</span>
+            <a href="mailto:iykekenneth76@gmail.com" class="item_value item_link">iykekenneth76@gmail.com</a>
           </div>
         </div>
-      </section>
+      </div>
+
+      <div class="contact_form_wrapper">
+        <form action="" method="post" class="contact_form">
+          <div class="form_row flex">
+            <div class="form_group">
+              <label for="name">NAME</label>
+              <input type="text" id="name" name="name" placeholder="John Doe" required />
+            </div>
+            <div class="form_group">
+              <label for="email">EMAIL</label>
+              <input type="email" id="email" name="email" placeholder="john@example.com" required />
+            </div>
+          </div>
+
+          <div class="form_group">
+            <label for="message">MESSAGE</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me about your project or inquiry..." required></textarea>
+          </div>
+
+          <button type="submit" class="submit_btn">
+            <span>SEND MESSAGE</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="22" y1="2" x2="11" y2="13"></line>
+              <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+            </svg>
+          </button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
     </main>
     <footer>
       <section id="footer">
